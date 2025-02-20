@@ -8,12 +8,12 @@
      runs-on: windows 11
 
      steps:
-       -name: Checkout code 
-       uses: actions/checkout@v2
+     -name: Checkout code 
+      uses: actions/checkout@v2
 
-       -name: set uo python
-       uses: actions/setup-python@v2
-       with:
+     -name: set uo python
+      uses: actions/setup-python@v2
+      with:
          python-version: 3.8
 
         -name: Install Bandit
